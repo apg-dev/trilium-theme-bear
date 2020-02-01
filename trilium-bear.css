@@ -1,0 +1,101 @@
+@font-face { 
+  font-family: "Avenir Next";
+}
+
+body.theme-trilium-bear {
+    --main-font-family: "Avenir Next" !important;
+    --main-background-color: #f9f9f9;
+    --main-text-color: #222222;
+    --input-background-color: #f9f9f9;
+    --header-background-color: #f9f9f9;
+    --button-background-color: #f9f9f9;
+    --menu-background-color: #f9f9f9;
+    --detail-font-size: 19px !important;
+    --ck-todo-list-checkmark-size: 21px !important;
+}
+
+.note-detail-text-editor {
+    max-width: 750px;
+}
+
+.note-detail-text {
+    padding-left: 100px;
+    padding-right: 75px;
+}
+
+.zen-mode .note-detail-text {
+    margin-left: 200px;
+}
+
+.note-detail-text p {
+    font-size: 20.5px;
+    line-height: 1.7em;
+    padding-bottom: 10px;
+}
+
+a {
+    cursor: pointer;
+    color: #447cc1 !important;
+}
+
+.note-detail-text h1 {
+    margin-bottom: 40px !important;
+}
+
+.ck-content .todo-list li {
+    margin-bottom: 0px !important;
+}
+
+.ck-content blockquote {
+    border-left: 3px solid #3d76bf !important;
+    overflow: unset !important;
+}
+
+.ck-content .todo-list {
+    margin-bottom: -5px !important;
+}
+
+.ck-content .todo-list li {
+    margin-bottom: 5px !important;
+}
+
+ol li {
+    margin-bottom: 15px !important;
+}
+
+.note-detail-text li {
+    margin-bottom: 5px;
+}
+
+
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+    margin-bottom: 1.05rem !important;
+}
+
+.dropdown-menu > show, .dropdown-menu-right > show {
+    background-color: #f9f9f9 !important;
+}
+
+#tree {
+    background-color: #232527;
+    color: #c6c7c7;
+    font-size: 13.8px !important;
+}
+
+#topbar {
+    font-size: 11.2px;
+    font-family: "Lucida Grande";
+}
+
+.note-tab-close div, .note-tab-close span {
+    font-size: 14px !important;
+    top: -1px !important;
+}
+
+.note-tab-title {
+    margin-top: 2px !important;
+}
+
+data-cke-filler {
+    color: #3d76bf !important;
+}
